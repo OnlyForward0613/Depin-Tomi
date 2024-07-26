@@ -56,7 +56,8 @@ const LogIn = () => {
         Web3 Wallet
       </button>
       <div className="text-xs font-black text-secondary-foreground">
-        Don't have an accont, yet? <Link href="/auth/signup" className="text-primary">Sign Up</Link>
+        Don't have an accont, yet? 
+        {/* <Link href="/auth/signup" className="text-primary">Sign Up</Link> */}
       </div>
 
       <WalletConnect open={openModal} setOpen={setOpenModal} />

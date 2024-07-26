@@ -50,6 +50,7 @@ td {
 
 .end_Background{
   background: url("../assets/images/endback.png");
-  background-size: 100% 210%;
+  background-size: 80vw 55vw;
   background-position-y: -290px;
+  background-repeat: no-repeat;
 }

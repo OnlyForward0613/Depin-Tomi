@@ -184,9 +184,9 @@ const MainPage = () => {
                     </div>
                 </div>
 
-                <div className="pl-[10vw] pr-[10vw] pb-[10vh] ">
-                    <div className="w-full h-[500px] relative end_Background rounded-b-[20px]">
-                        <div className="border-t-[1px] border-x-[1px] border-white border-opacity-20 rounded-[20px] absolute top-[10vh] w-full h-[380px] pt-[50px] pl-[30px]">
+                <div className="pl-[10vw] pr-[10vw] pb-[10vh] relative">
+                    <div className="w-full h-[28vw] relative end_Background rounded-b-[20px]">
+                        <div className="border-t-[1px] border-x-[1px] border-white border-opacity-20 rounded-[20px] absolute top-[10vh] w-full h-[22.5vw] p-10 ">
                             <p className="text-[35px] leading-[42px]">Experience the Supercloud.</p>
                             <button className="px-[20px] py-[8px] h-[32px] mt-4 rounded-[90px] border-[#FF0083] border-[1px] text-[12px] leading-[15.6px] hover:bg-[#FF0083]">Deploy Now</button>
                         </div>

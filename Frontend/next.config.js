@@ -8,7 +8,8 @@ await import("./src/env.js");
 const config = {
     eslint: {
         ignoreDuringBuilds: true
-    }
+    },
+    basePath: "/localhost:3000"
 };
 
 

@@ -30,10 +30,10 @@ export default function RootLayout({
       <body className={`font-sans ${inter.variable} bg-background relative`}>
         {/* <ThirdwebProvider>
           <TRPCReactProvider> */}
-            {/* <Image src={Background} alt="background" className="absolute top-0 left-0 w-full -z-10" /> */}
-            {/* <Header /> */}
+            <Image src={Background} alt="background" className="absolute top-0 left-0 w-full -z-10" />
+            <Header />
             {children}
-            {/* <Footer /> */}
+            <Footer />
           {/* </TRPCReactProvider>
         </ThirdwebProvider> */}
         {/* {children} */}

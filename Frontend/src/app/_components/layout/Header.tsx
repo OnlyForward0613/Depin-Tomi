@@ -16,7 +16,7 @@ const Header = () => {
   }, [pathname])
 
   return (
-    <div className="fixed flex items-center justify-between bg-[#1010107F] px-24 py-4 w-full z-10 max-w-[1920px]">
+    <div className="fixed w-screen z-20">
       {/* <Link href="/">
         <Image src={Logo} alt="logo" width={128} height={24} />
       </Link> */}

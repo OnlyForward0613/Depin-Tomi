@@ -24,6 +24,7 @@
     --input: #F1F1F133;
     --ring: 240 5% 64.9%;
     --radius: 0.5rem;
+    
   }
 }
 
@@ -31,6 +32,7 @@ body {
   @apply bg-background text-foreground;
   max-width: 1920px;
   margin: auto;
+  box-sizing: border-box;
 }
 
 table {
@@ -50,6 +52,10 @@ td {
 
 .end_Background{
   background: url("../assets/images/endback.png");
-  background-size: 100% 210%;
+  background-size: 80vw 55vw;
   background-position-y: -290px;
+  background-repeat: no-repeat;
 }
+
+/* styles.css */
+

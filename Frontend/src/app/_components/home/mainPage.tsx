@@ -16,8 +16,8 @@ const MainPage = () => {
             <div className="bg-black w-full">
                 <div className="flex flex-col">
                     <div className="flex flex-col gap-[75px] md:px-[10vw] px-3 pt-[20vh]">
-                        <div className="flex flex-col text-center gap-[30px]">
-                            <p className="text-[21px] md:leading-[21px] leading-[10px]">WELCOME TO TOMI NODE</p>
+                        <div className="flex flex-col text-center gap-7">
+                            <p className="text-2xl md:leading-5 leading-[10px]">WELCOME TO TOMI NODE</p>
                             <p className="md:text-6xl text-3xl md:leading-[60px] leading-10">The World’s Premiere Decentralised</p>
                             <p className="md:text-6xl text-3xl md:leading-[60px] leading-10 font-extrabold">Compute Marketplace</p>
                             <p className="text-[18px] leading-[23.4px] uppercase px-[10vw]">tomi Node is an open network that lets users buy and sell computing resources securely and efficiently. Purpose-built for public utility.</p>
@@ -61,8 +61,8 @@ const MainPage = () => {
                                     <Image src={Icon1} alt=""/>
                                 </div>
                                 <div className="flex flex-col gap-2">
-                                    <p className="text-[22px] leading-[24.2px] uppercase">Infrastructure as code</p>
-                                    <p className="text-[14px] leading-[18.2px]">Ab reiciendis autem sed incidunt minima non consequatur expedita est dolorum deserunt vel aliquam necessitatibus.</p>
+                                    <p className="md:text-2xl text-lg leading-6 uppercase">Infrastructure as code</p>
+                                    <p className="text-[14px] leading-5">Ab reiciendis autem sed incidunt minima non consequatur expedita est dolorum deserunt vel aliquam necessitatibus.</p>
                                 </div>
                             </div>
                             <div className="flex flex-col flex-1 w-[30%] min-w-[260px] gap-7 md:px-[30px] px-4 pt-[30px] pb-[35px] bg-zinc-900 rounded-[10px]">
@@ -70,24 +70,24 @@ const MainPage = () => {
                                     <Image src={Icon2} alt=""/>
                                 </div>
                                 <div className="flex flex-col gap-2">
-                                    <p className="text-[22px] leading-[24.2px] uppercase">kubernetes powered</p>
-                                    <p className="text-[14px] leading-[18.2px]">Ab reiciendis autem sed incidunt minima non consequatur expedita est dolorum deserunt vel aliquam necessitatibus.</p>
+                                    <p className="md:text-2xl text-lg leading-6 uppercase">kubernetes powered</p>
+                                    <p className="text-[14px] leading-5">Ab reiciendis autem sed incidunt minima non consequatur expedita est dolorum deserunt vel aliquam necessitatibus.</p>
                                 </div>
                             </div>
-                            <div className="flex flex-col flex-1 w-[30%] min-w-[260px] gap-7 md:px-[30px] px-4 pt-[30px] bg-zinc-900 rounded-[10px]">
+                            <div className="flex flex-col flex-1 w-[30%] min-w-[260px] gap-7 md:px-[30px] px-4 pt-[30px] pb-[35px] bg-zinc-900 rounded-[10px]">
                                 <div>
                                     <Image src={Icon3} alt=""/>
                                 </div>
                                 <div className="flex flex-col gap-[10px]">
-                                    <p className="text-[22px] leading-[24.2px] uppercase">Persistent storage</p>
-                                    <p className="text-[14px] leading-[18.2px]">Ab reiciendis autem sed incidunt minima non consequatur expedita est dolorum deserunt vel aliquam necessitatibus.</p>
+                                    <p className="md:text-2xl text-lg leading-6 uppercase">Persistent storage</p>
+                                    <p className="text-[14px] leading-5">Ab reiciendis autem sed incidunt minima non consequatur expedita est dolorum deserunt vel aliquam necessitatibus.</p>
                                 </div>
                             </div>                        
                         </div>
                     </div>
                 </div>
                 <div className="pr-[15px] pb-[15px] pl-[15px] md:mt-0 mt-4">
-                    <div className="flex flex-col md:gap-24 gap-10 mt:pt-[80px] pt-6 md:px-[110px] px-4 md:pb-[90px] pb-4 bg-zinc-900">
+                    <div className="flex flex-col md:gap-24 gap-10 mt:pt-[80px] pt-6 md:px-[110px] px-4 md:pb-[90px] pb-4 bg-zinc-900 rounded-lg">
                         <div className="flex flex-row gap-7 flex-wrap">
                             <div className="flex flex-[6] flex-col justify-center gap-6 min-w-[200px]">
                                 <p className="md:text-4xl text-2xl">Powerful, flexible, and designed for what’s next</p>
@@ -113,7 +113,7 @@ const MainPage = () => {
                     </div>            
                 </div>
                 <div className="flex flex-col md:px-[10vw] px-3 py-[10vh] md:gap-20 gap-10">
-                    <div className="flex flex-col text-center h-full">
+                    <div className="flex flex-col text-center h-full gap-5">
                         <p className=" md:text-4xl text-2xl uppercase">What’s possible with tomi node?</p>
                         <p className=" md:text-xl text-sm leading-[23.4px] uppercase ">tomi Node is a  community-owned and managed. As a free public service, its source code is available to everyone. The community actively oversees all aspects</p>
                     </div>
@@ -184,10 +184,10 @@ const MainPage = () => {
                     </div>
                 </div>
 
-                <div className="pl-[10vw] pr-[10vw] pb-[10vh] ">
-                    <div className="w-full h-[500px] relative end_Background rounded-b-[20px]">
-                        <div className="border-t-[1px] border-x-[1px] border-white border-opacity-20 rounded-[20px] absolute top-[10vh] w-full h-[380px] pt-[50px] pl-[30px]">
-                            <p className="text-[35px] leading-[42px]">Experience the Supercloud.</p>
+                <div className="pl-[10vw] pr-[10vw] pb-[10vh] relative">
+                    <div className="w-full h-[28vw] relative end_Background rounded-b-[20px]">
+                        <div className="border-t-[1px] border-x-[1px] border-white border-opacity-20 rounded-[20px] absolute top-[10vh] w-full h-[22.5vw] md:p-10 p-4">
+                            <p className="md:text-4xl text-xl font-bold">Experience the Supercloud.</p>
                             <button className="px-[20px] py-[8px] h-[32px] mt-4 rounded-[90px] border-[#FF0083] border-[1px] text-[12px] leading-[15.6px] hover:bg-[#FF0083]">Deploy Now</button>
                         </div>
                     </div>

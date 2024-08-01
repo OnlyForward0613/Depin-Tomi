@@ -16,24 +16,24 @@ const ConnectWallet = () => {
     }
     return(
         <>
-            <div className="w-screen h-screen flex items-center bg-black px-[30vw] py-[22vh]" onClick={nextPage}>
+            <div className="flex items-center bg-black lg:px-[30vw] md:px-[15vw] px-5 py-[22vh] h-screen">
                 <div className="w-full bg-[#1E1E1E] rounded-xl p-5 flex flex-col gap-7 ">
                     <div className="flex flex-row flex-wrap items-center text-lg border-zinc-600 rounded-lg border-[2px] p-5 ">
                         <div className="flex-1 font-bold"><p>Connect Your Wallet</p></div>
                         <div><Image src={Icon_close} alt=""/></div>
                     </div>
                     <div className="flex flex-col gap-4">
-                        <div className="flex flex-row flex-wrap items-center text-lg border-zinc-600 hover:border-[#FF0083] rounded-lg border-[2px] p-7 text-left w-full">
+                        <div className="flex flex-row flex-wrap items-center text-lg border-zinc-600 hover:border-[#FF0083] rounded-lg border-[2px] p-7 text-left w-full" onClick={nextPage}>
                             <div className="mr-6"><Image src={Icon_tomi} alt=""/></div>
                             <div className="flex-[2]"><p>tomi Wallet</p></div>
                             <div className=""><Image src={Icon_arrow} alt=""/> </div>
                         </div>
-                        <div className="flex flex-row flex-wrap items-center text-lg border-zinc-600 hover:border-[#FF0083] rounded-lg border-[2px] p-7 text-left w-full">
+                        <div className="flex flex-row flex-wrap items-center text-lg border-zinc-600 hover:border-[#FF0083] rounded-lg border-[2px] p-7 text-left w-full" onClick={nextPage}>
                             <div className="mr-6"><Image src={Icon_meta} alt=""/></div>
                             <div className="flex-[2]"><p>Metamask</p></div>
                             <div className=""><Image src={Icon_arrow} alt=""/> </div>
                         </div>
-                        <div className="flex flex-row flex-wrap items-center text-lg border-zinc-600 hover:border-[#FF0083] rounded-lg border-[2px] p-7 text-left w-full">
+                        <div className="flex flex-row flex-wrap items-center text-lg border-zinc-600 hover:border-[#FF0083] rounded-lg border-[2px] p-7 text-left w-full" onClick={nextPage}>
                             <div className="mr-6"><Image src={Icon_connect} alt=""/></div>
                             <div className="flex-[2]"><p>Connect Wallet</p></div>
                             <div className=""><Image src={Icon_arrow} alt=""/> </div>

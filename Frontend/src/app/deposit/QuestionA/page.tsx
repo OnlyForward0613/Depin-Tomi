@@ -1,13 +1,20 @@
+'use client'
+import { useRouter } from "next/navigation";
 import Icon from "../../../../public/favicon.ico"
 import IconAll from "../../../../public/images/icon_all.png"
 import Image from "next/image";
 
 const QuestionA = () => {
     let contents = ["AMD", "Intel", "Qualcomm", "Apple", "Other"];
+    const router = useRouter();
+
+    const nextPage = () => {
+        router.push('/deposit/QuestionB')
+    }
     return (
         <>
-            <div className="flex items-center w-screen h-screen px-[10vw] pt-[8vw] pb-[20vw] relative">
-                <div className="flex flex-col md:gap-6 gap-16">
+            <div className="flex items-center h-screen px-[10vw] pt-[8vw] pb-[20vw] relative" onClick={nextPage}>
+                <div className="flex flex-col md:gap-16 gap-6">
                     <div className="flex flex-row gap-2 items-center">
                         <div>
                             <Image src={Icon} alt="Icon" className="md:w-10 md:h-10 w-6 h-6"></Image>

@@ -13,7 +13,7 @@ const BecomeProvider = () => {
     }
     return (
         <>
-            <div className="flex items-center w-screen h-screen px-[10vw] pt-[8vw] pb-[10vw] relative">
+            <div className="flex items-center px-[10vw] md:pt-[8vh] pt-[15vh] md:h-screen md:pb-0 pb-7 relative">
                 <div className="flex flex-col gap-8">
                     <div className="flex flex-row gap-2 items-center">
                         <div>
@@ -28,7 +28,7 @@ const BecomeProvider = () => {
                         <p className="text-lg text-[#BCBCBC]">In order to become you should have minimum 100 tomi tokens in your wallet</p>
                     </div>
                     <div>
-                        <button className="bg-[#FF0083] rounded-3xl px-6 py-2 text-center" onClick={nextPage}>Connect</button>
+                        <button className="hover:bg-[#FF0083] rounded-3xl px-6 py-2 text-center border border-primary" onClick={nextPage}>Connect</button>
                     </div>
                     <div>
                         <p className="text-lg text-[#BCBCBC]">Important: Selecting the GPU Sandbox option involves certain risks and shoulod be done only for experimental purposes</p>
